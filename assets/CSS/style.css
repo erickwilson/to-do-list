@@ -1,0 +1,52 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    button {
+        margin-left: 5px;
+        height: 30px;
+        width: 70px;
+        border-radius: 15%;
+        border: 2px solid #108594;
+        background-color: rgb(89, 220, 238);
+        color: white;
+        font-size: 10pt;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    #list {
+        display: flex;
+    }
+    
+     :checked+label {
+        text-decoration: line-through;
+        color: grey;
+    }
+    
+    input {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    
+    #divTarefa {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .t {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
